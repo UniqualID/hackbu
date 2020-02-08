@@ -8,10 +8,23 @@
     </head>
 
     <body>
-        <aside> <?php include("includes/sidebar.php"); ?> </aside>
+        <aside>
 
-        <?php include("includes/header.php"); ?>
+            <header>
+            <div class ='container'>
+                <h1> Progress Bar <h1>
+            </div>
+            </header>
+        </aside>
 
+        <!--<?php include("includes/header.php"); ?> -->
+        <div class="sidenav">
+            <a href="#">Home</a>
+            <a href="#">Financial Well Being</a>
+            <a href="#">Stop Juuling Lmao</a>
+            <a href="#">Helth</a>
+            <a href="#">Stop Your Crippling Crack Addiction</a>
+        </div>
         <main>
             <div class = "container">
                 <div>
